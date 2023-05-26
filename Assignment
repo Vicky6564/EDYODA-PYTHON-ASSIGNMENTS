@@ -1,0 +1,12 @@
+def fibonacci_series(n):
+    series = []
+    a,b = 0,1
+    while a<=n:
+        series.append(a)
+        a,b = b,a+b
+    return series
+limit = 50
+fib_series = fibonacci_series(limit)
+filtered_series = [num for num in fib_series if num <= limit]
+for num in filtered_series:
+    print(num,end=' ')
