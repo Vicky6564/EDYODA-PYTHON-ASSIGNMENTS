@@ -10,3 +10,6 @@ fib_series = fibonacci_series(limit)
 filtered_series = [num for num in fib_series if num <= limit]
 for num in filtered_series:
     print(num,end=' ')
+    
+  0 1 1 2 3 5 8 13 21 34  
+    
